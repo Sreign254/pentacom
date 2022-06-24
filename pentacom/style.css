@@ -88,7 +88,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: skyblue;
+    background: skyblue repeat;
 }
 .navbar .max-width{
     display: flex;
@@ -96,16 +96,16 @@ section .title::after{
     justify-content: space-between;
 }
 .navbar .logo a{
-    color: #fff;
+    color: crimson;
     font-size: 35px;
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: skyblue;
+    color: black;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
-    color: #fff;
+    color:black;
 }
 .navbar .menu li{
     list-style: none;
@@ -137,7 +137,7 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: crimson;
+    background: skyblue;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -165,14 +165,17 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("img/img/best.jpg") no-repeat center;
+    background: url("img/img/pexels-marcelo-moreira.jpg") no-repeat center;
+    filter:contrast(1.75em);
     height: 100vh;
-    opacity: 1;
-    color: skyblue;
+    color: black;
     min-height: 500px;
     background-size: cover;
     position: relative;
    
+    background-position: center;
+    
+    background-size: cover;
    
     /*top: 0;
     left: 0;
@@ -220,13 +223,13 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: crimson;
+    color: grey;
     background: none;
 }
 
 /* about section styling */
 .about .title::after{
-    content: "who are we";
+    content: "who are we?";
 }
 .about .about-content .left{
     width: 45%;
@@ -402,7 +405,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover{
-    background: crimson;
+    background:skyblue;
 }
 .teams .carousel .card .box{
     display: flex;
@@ -449,7 +452,7 @@ section .title::after{
 }
 .owl-dot.active,
 .owl-dot:hover{
-    background: crimson!important;
+    background:skyblue!important;
 }
 
 /* contact section styling */
@@ -480,7 +483,7 @@ section .title::after{
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: crimson;
+    color:skyblue;
 }
 .contact .contact-content .info .head{
     font-weight: 500;
